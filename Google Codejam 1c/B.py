@@ -1,3 +1,5 @@
+#Only Solved test set 1
+
 t = int(input())
 result = []
 
