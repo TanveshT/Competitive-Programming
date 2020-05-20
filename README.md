@@ -4,6 +4,7 @@ This is my competitive programming practice folder. All the codes are mostly wri
 
 The folders are either divided according to their problem difficulty in codeforces or else if I took part in any programming contest.
 
+```
 .
 ├── Codeforces Difficulty 1100-1300
 │   ├── 1342ARoadToZero.py
@@ -232,3 +233,4 @@ The folders are either divided according to their problem difficulty in codeforc
 │       └── Google Kickstart 2020 Round C
 │           ├── A.py
 │           └── C.cpp
+```
