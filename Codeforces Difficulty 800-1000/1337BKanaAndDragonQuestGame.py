@@ -5,14 +5,13 @@ t = int(input())
 for _ in range(t):
 
     h, n, m = map(int, input().split())
-    x = 10*m
-    flag = False
-    for i in range(n):
-        if math.floor(((h/(2**i)) + (20*(1-((1/2)**(i+1))))) -  x) <= 0:
-            flag = True
-            break
+    count = 0
 
-    if flag:
+    while(h > 0 and n > 0 and (h//2+10) < h):
+        n-=1
+        h = h//2 + 10
+
+    if h <= m*10:
         print('YES')
     else:
-        print('NO') 
+        print('NO')
